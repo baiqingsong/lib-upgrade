@@ -1,0 +1,13 @@
+#Tue Apr 21 01:04:03 CST 2026
+base.0=D\:\\lib\\13.lib-upgrade\\lib-upgrade\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\lib\\13.lib-upgrade\\lib-upgrade\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\9\\classes.dex
+base.2=D\:\\lib\\13.lib-upgrade\\lib-upgrade\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=D\:\\lib\\13.lib-upgrade\\lib-upgrade\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+path.0=classes.dex
+path.1=9/classes.dex
+path.2=0/classes.dex
+path.3=8/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

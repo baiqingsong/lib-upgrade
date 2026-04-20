@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 外部文件目录（getExternalFilesDir） -->
+    <external-files-path
+        name="upgrade_apk"
+        path="upgrade/" />
+
+    <!-- 外部存储根目录 -->
+    <external-path
+        name="external_storage"
+        path="." />
+
+    <!-- 内部缓存 -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- 内部文件目录 -->
+    <files-path
+        name="files"
+        path="." />
+</paths>

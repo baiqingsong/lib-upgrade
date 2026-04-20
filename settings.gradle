@@ -1,0 +1,3 @@
+rootProject.name = "lib-upgrade"
+include ':app'
+include ':library'

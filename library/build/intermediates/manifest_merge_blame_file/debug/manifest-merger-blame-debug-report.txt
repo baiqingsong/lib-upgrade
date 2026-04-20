@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dawn.lib_upgrade" >
+4
+5    <uses-sdk android:minSdkVersion="28" />
+5-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml
+6
+7    <!-- 网络权限 -->
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:5:5-67
+8-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:5:22-64
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:6:5-79
+9-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:6:22-76
+10
+11    <!-- 存储权限（Android 10 以下需要） -->
+12    <uses-permission
+12-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:9:5-10:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:9:22-78
+14        android:maxSdkVersion="28" />
+14-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:10:9-35
+15    <uses-permission
+15-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:11:5-12:38
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:11:22-77
+17        android:maxSdkVersion="32" />
+17-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:12:9-35
+18
+19    <!-- 安装 APK 权限 -->
+20    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+20-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:15:5-83
+20-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:15:22-80
+21
+22    <!-- 前台服务权限 -->
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:18:5-77
+23-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:18:22-74
+24
+25    <application>
+25-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:20:5-39:19
+26
+27        <!-- 下载前台服务 -->
+28        <service
+28-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:23:9-26:56
+29            android:name="com.dawn.lib_upgrade.DownloadService"
+29-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:24:13-44
+30            android:exported="false"
+30-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:25:13-37
+31            android:foregroundServiceType="dataSync" />
+31-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:26:13-53
+32
+33        <!-- FileProvider（用于 Android 7.0+ APK 安装） -->
+34        <provider
+34-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:29:9-37:20
+35            android:name="androidx.core.content.FileProvider"
+35-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:30:13-62
+36            android:authorities="${applicationId}.upgrade.fileprovider"
+36-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:31:13-72
+37            android:exported="false"
+37-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:32:13-37
+38            android:grantUriPermissions="true" >
+38-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:33:13-47
+39            <meta-data
+39-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:34:13-36:62
+40                android:name="android.support.FILE_PROVIDER_PATHS"
+40-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:35:17-67
+41                android:resource="@xml/upgrade_file_paths" />
+41-->D:\lib\13.lib-upgrade\lib-upgrade\library\src\main\AndroidManifest.xml:36:17-59
+42        </provider>
+43    </application>
+44
+45</manifest>

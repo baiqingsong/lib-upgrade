@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dawn.lib_upgrade.test" >
+4
+5    <uses-sdk
+5-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:5:5-74
+6        android:minSdkVersion="28"
+6-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:11:5-15:75
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:13:22-53
+13        android:label="Tests for com.dawn.lib_upgrade.test"
+13-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:15:22-73
+14        android:targetPackage="com.dawn.lib_upgrade.test" />
+14-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:12:22-71
+15    <!-- 网络权限 -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+16-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 存储权限（Android 10 以下需要） -->
+17-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+17-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+18    <uses-permission
+18-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-14:38
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-65
+20        android:maxSdkVersion="28" />
+20-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-35
+21    <uses-permission
+21-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-17:38
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-64
+23        android:maxSdkVersion="32" /> <!-- 安装 APK 权限 -->
+23-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-35
+24    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 前台服务权限 -->
+24-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-83
+24-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:22-80
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-77
+25-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:22-74
+26
+27    <permission
+27-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+28        android:name="com.dawn.lib_upgrade.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.dawn.lib_upgrade.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:7:5-9:19
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.10.1] C:\Users\90449\.gradle\caches\transforms-3\f3c38077b15b0d287c8a4b809c064c9d\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false" >
+37        <uses-library android:name="android.test.runner" />
+37-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:8:9-60
+37-->D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12315892871397600878.xml:8:23-57
+38        <!-- 下载前台服务 -->
+39        <service
+39-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-31:56
+40            android:name="com.dawn.lib_upgrade.DownloadService"
+40-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-64
+41            android:exported="false"
+41-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-37
+42            android:foregroundServiceType="dataSync" /> <!-- FileProvider（用于 Android 7.0+ APK 安装） -->
+42-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-53
+43        <provider
+43-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+44            android:name="androidx.core.content.FileProvider"
+44-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+45            android:authorities="com.dawn.lib_upgrade.test.upgrade.fileprovider"
+45-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-72
+46            android:exported="false"
+46-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+47            android:grantUriPermissions="true" >
+47-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+48            <meta-data
+48-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:62
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+50                android:resource="@xml/upgrade_file_paths" />
+50-->[:library] D:\lib\13.lib-upgrade\lib-upgrade\library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-59
+51        </provider>
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.dawn.lib_upgrade.test.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\90449\.gradle\caches\transforms-3\e6cc2b2d8911a4684bdbf3fe7c74bb2d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\90449\.gradle\caches\transforms-3\eaf38ecd125200be5cc6930a21dfb71f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
